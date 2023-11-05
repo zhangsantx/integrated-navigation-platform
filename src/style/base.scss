@@ -1,0 +1,126 @@
+:root {
+  --sc-primary-color-1: #f2f3ff;
+  --sc-primary-color-2: #d9e1ff;
+  --sc-primary-color-3: #b5c7ff;
+  --sc-primary-color-4: #8eabff;
+  --sc-primary-color-5: #618dff;
+  --sc-primary-color-6: #366ef4;
+  --sc-primary-color-7: #0052d9;
+  --sc-primary-color-8: #003cab;
+  --sc-primary-color-9: #002a7c;
+  --sc-primary-color-10: #001a57;
+
+  --sc-success-color-1: #e3f9e9;
+  --sc-success-color-2: #c6f3d7;
+  --sc-success-color-3: #92dab2;
+  --sc-success-color-4: #56c08d;
+  --sc-success-color-5: #2ba471;
+  --sc-success-color-6: #008858;
+  --sc-success-color-7: #006c45;
+  --sc-success-color-8: #005334;
+  --sc-success-color-9: #003b23;
+  --sc-success-color-10: #002515;
+
+  --sc-warning-color-1: #fff1e9;
+  --sc-warning-color-2: #ffd9c2;
+  --sc-warning-color-3: #ffb98c;
+  --sc-warning-color-4: #fa9550;
+  --sc-warning-color-5: #e37318;
+  --sc-warning-color-6: #be5a00;
+  --sc-warning-color-7: #954500;
+  --sc-warning-color-8: #713300;
+  --sc-warning-color-9: #532300;
+  --sc-warning-color-10: #3b1700;
+
+  --sc-error-color-1: #fff0ed;
+  --sc-error-color-2: #ffd8d2;
+  --sc-error-color-3: #ffb9b0;
+  --sc-error-color-4: #ff9285;
+  --sc-error-color-5: #f6685d;
+  --sc-error-color-6: #d54941;
+  --sc-error-color-7: #ad352f;
+  --sc-error-color-8: #881f1c;
+  --sc-error-color-9: #68070a;
+  --sc-error-color-10: #490002;
+
+  --sc-info-color-1: #f3f3f3;
+  --sc-info-color-2: #eee;
+  --sc-info-color-3: #e7e7e7;
+  --sc-info-color-4: #dcdcdc;
+  --sc-info-color-5: #c5c5c5;
+  --sc-info-color-6: #a6a6a6;
+  --sc-info-color-7: #8b8b8b;
+  --sc-info-color-8: #777;
+  --sc-info-color-9: #5e5e5e;
+  --sc-info-color-10: #4b4b4b;
+  --sc-info-color-11: #383838;
+  --sc-info-color-12: #2c2c2c;
+  --sc-info-color-13: #242424;
+  --sc-info-color-14: #181818;
+
+  // 基础颜色
+  --sc-color-primary: var(--sc-primary-color-7);
+  --sc-color-success: var(--sc-success-color-5);
+  --sc-color-warning: var(--sc-warning-color-5);
+  --sc-color-error: var(--sc-error-color-6);
+  --sc-color-info: var(--sc-info-color-5);
+}
+
+/* 默认模式CSS配置 */
+:root,
+.light {
+  // --sc-color-primary: var(--sc-primary-color-7);
+  // --sc-color-success: var(--sc-success-color-5);
+  // --sc-color-warning: var(--sc-warning-color-5);
+  // --sc-color-error: var(--sc-error-color-6);
+  // --sc-color-info: var(--sc-info-color-5);
+
+  --sc-color-background-1: #f4f7fc;
+  --sc-color-background-2: #ffffff;
+  --sc-color-background-3: #f1f1f1;
+  --sc-color-font-1: rgba(0, 0, 0, 0.88);
+  --sc-color-font-2: rgba(0, 0, 0, 0.45);
+
+  --sc-text-color-primary: #4f5379; // 标题色
+  --sc-text-color-regular: #666; // 正文颜色
+  --sc-text-color-secondary: #8896af; // 筛选项颜色
+  --sc-text-color-placeholder: #c1c1c1; // 占位符颜色
+  --sc-text-color-disabled: #8896af; // 文本禁用颜色
+}
+
+/* 深色模式CSS配置 */
+.dark {
+  color-scheme: dark;
+
+  // --sc-color-primary: var(--sc-primary-color-8);
+  // --sc-color-success: var(--sc-success-color-6);
+  // --sc-color-warning: var(--sc-warning-color-6);
+  // --sc-color-error: var(--sc-error-color-7);
+  // --sc-color-info: var(--sc-info-color-6);
+
+  --sc-color-background-1: #000000;
+  --sc-color-background-2: #141414;
+  --sc-color-background-3: #3c3f43;
+  --sc-color-font-1: rgba(255, 255, 255, 0.85);
+  --sc-color-font-2: rgba(255, 255, 255, 0.45);
+
+  --sc-text-color-primary: #4f5379; // 标题色
+  --sc-text-color-regular: #666; // 正文颜色
+  --sc-text-color-secondary: #8896af; // 筛选项颜色
+  --sc-text-color-placeholder: #c1c1c1; // 占位符颜色
+  --sc-text-color-disabled: #8896af; // 文本禁用颜色
+}
+
+$ScColorPrimay: #0052d9;
+$ScColorSuccess: #2ba471;
+$ScColorWarning: #e37318;
+$ScColorDanger: #d54941;
+$ScColorInfo: #c5c5c5;
+$ScTextColorPrimary: #4f5379;
+$ScTextColorRegular: #666;
+$ScTextColorSecondary: #8896af;
+$ScTextColorPlaceholder: #c1c1c1;
+$ScTextColorDisabled: #8896af;
+$ScBorderColor: #e2e3e7;
+$ScBgColor: #f2f5f9;
+$ScBgLightColor: #f6f6fa;

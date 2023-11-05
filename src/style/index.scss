@@ -1,0 +1,82 @@
+@use './normalize.scss';
+@use './base.scss';
+
+// element-plus 相关
+// @use 'element-plus/theme-chalk/src/message.scss';
+// @use 'element-plus/theme-chalk/src/message-box.scss';
+// @use './element/components.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  /* background-color: var(--color-bg-1); */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  font-family: PingFang SC, Arial, Helvetica Neue;
+  font-size: 14px;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(136 150 175 / 40%);
+  border-radius: 6px;
+}
+
+/** custom start */
+.sc-color-primary {
+  color: var(--sc-color-primary);
+}
+
+.sc-color-success {
+  color: var(--sc-color-success);
+}
+
+.sc-color-warning {
+  color: var(--sc-color-warning);
+}
+
+.sc-color-info {
+  color: var(--sc-color-info);
+}
+
+.sc-color-error {
+  color: var(--sc-color-error);
+}
+
+.sc-overflow-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/** custom end */

@@ -1,0 +1,55 @@
+@use '../base.scss' as *;
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': $ScColorPrimay
+    ),
+    'success': (
+      'base': $ScColorSuccess
+    ),
+    'warning': (
+      'base': $ScColorWarning
+    ),
+    'danger': (
+      'base': $ScColorDanger
+    ),
+    'info': (
+      'base': $ScColorInfo
+    )
+  ),
+  $text-color: (
+    'primary': $ScTextColorPrimary,
+    'regular': $ScTextColorRegular,
+    'secondary': $ScTextColorSecondary,
+    'placeholder': $ScTextColorPlaceholder,
+    'disabled': $ScTextColorDisabled
+  ),
+  $fill-color: (
+    '': #f2f0f9
+  ),
+  $border-color: (
+    '': #e2e3e7
+  ),
+  $bg-color: (
+    'page': #f2f5f9
+  ),
+  $font-family: (
+    '': "'PingFang SC, Arial, Helvetica Neue'"
+  ),
+  // components start
+  $button-padding-vertical:
+    (
+      'default': 8px,
+      'small': 8px
+    ),
+  $button-padding-horizontal: (
+    'default': 16px,
+    'small': 16px
+  ),
+  $table-padding: (
+    'default': 9px 0
+  )
+);
+
+@use 'element-plus/theme-chalk/src/index.scss' as *;

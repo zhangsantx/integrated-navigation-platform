@@ -1,0 +1,25 @@
+{
+  "name": "integrated-navigation-platform",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "xls": "node build/xls2json.js"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.8",
+    "path": "^0.12.7",
+    "sass": "^1.64.1",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2",
+    "xls-to-json": "^2.1.1"
+  }
+}

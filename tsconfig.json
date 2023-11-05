@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "types": ["element-plus/global"]
+  },
+  "include": ["src/**/*", "src/**/*.vue", "components.d.ts"],
+  "exclude": ["node_modules"],
+
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "types": ["node"]
+    }
+  }
+}
